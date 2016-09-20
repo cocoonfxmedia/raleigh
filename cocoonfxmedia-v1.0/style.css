@@ -18,7 +18,29 @@ Author URI: https://www.cocoonfxmedia.co.uk
 }
 .accordian {
     // border-top:0 none;// display:inline-block;// list-style:none outside none;// margin:0 0 0;// padding:0;// vertical-align:top;// width:33%}.accordian header{// background:none repeat scroll 0 0 #585050;// border-top:2px solid #fff;// color:#f47624;cursor:pointer;// display:block;// font-family:'open sans';// font-size:16px;// margin:0;// padding:.6em}.accordian section{display:none;padding:1em;background:#E9F0F2;border-top:1px solid #ddd;font-family:'open sans',sans-serif;font-size:14px;width:100%;float:left}.accordian section.active{display:block}.accordian li{list-style:none}#accord1 p{margin-bottom:0}#accord1 a{display:block;margin-bottom:15px}
-
+.resLink {
+    background-color: #ff9f40;
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 2px;
+    padding: 25px 15px;
+    text-decoration: none;
+    width: 100%;
+}
+.accordian section {
+    background: #e9f0f2 none repeat scroll 0 0;
+    border-top: 1px solid #ddd;
+    display: none;
+    float: left;
+    font-family: "open sans",sans-serif;
+    font-size: 14px;
+    padding: 1em;
+    width: 100%;
+}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	font-family: inherit;
